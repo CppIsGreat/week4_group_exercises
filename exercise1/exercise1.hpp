@@ -2,7 +2,6 @@
 #ifndef CPP_LONDON_UNI_EXERCISE1_HPP
 #define CPP_LONDON_UNI_EXERCISE1_HPP
 
-#include <vector>
 
 // Requirements:
 //   -- if i is even, returns true
@@ -30,4 +29,4 @@ int largest_div_by_three(const std::vector<int>& vec);
 //   -- returns true if the elements in vec are sorted, and false otherwise
 bool is_sorted(const std::vector<int>& vec);
 
-#endif
+#endif // CPP_LONDON_UNI_EXCERCISE1_HPP
