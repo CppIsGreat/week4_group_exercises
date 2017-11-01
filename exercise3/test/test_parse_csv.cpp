@@ -13,7 +13,7 @@ const std::string quoted = R"(first,second,third,
 
 TEST_CASE("Unquoted CSV files can be parsed as expected")
 {
-    std::istringstream ss(quoted);
+    std::istringstream ss(unquoted);
     const auto csv = parse_csv(ss);
     const auto result = std::vector<std::vector<std::string>>{
         {"first", "second", "third"},
