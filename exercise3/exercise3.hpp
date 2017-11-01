@@ -1,5 +1,6 @@
 //
 // Created by Tristan Brindle on 24/10/2017.
+// Hacked by Neil Burman on 2017-11-01.
 //
 
 #ifndef CPP_LONDON_UNI_EXERCISE3_HPP
@@ -8,6 +9,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <regex>
 
 // Requirements:
 //   -- Given a string containing elements separated by commas, return a
@@ -35,4 +37,4 @@ struct csv_file {
 // a `csv_file` containing each line of the input, split correctly
 csv_file parse_csv(std::istream& istream);
 
-#endif
+#endif // CPP_LONDON_UNI_EXERCISE3_HPP
